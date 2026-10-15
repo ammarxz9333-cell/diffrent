@@ -2,10 +2,10 @@
   "agents": {
     "analyst_targets": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.24763333333333334,
+        "direction_accuracy": 0.6666666666666666,
+        "log_loss": 0.6884445097805433,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -25,10 +25,10 @@
     },
     "congress_trades": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.25,
+        "direction_accuracy": 0.6666666666666666,
+        "log_loss": 0.6931471805599453,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -48,10 +48,10 @@
     },
     "earnings_estimates": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.21896666666666664,
+        "direction_accuracy": 0.6666666666666666,
+        "log_loss": 0.6284498430956552,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -71,10 +71,10 @@
     },
     "economy": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.2656666666666667,
+        "direction_accuracy": 0.3333333333333333,
+        "log_loss": 0.7246133790344945,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -94,10 +94,10 @@
     },
     "financials": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.23610000000000003,
+        "direction_accuracy": 0.6666666666666666,
+        "log_loss": 0.6651682956024275,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -117,10 +117,10 @@
     },
     "insider_trades": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.24029999999999999,
+        "direction_accuracy": 1,
+        "log_loss": 0.6737242111852867,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -140,10 +140,10 @@
     },
     "institutional_holdings": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.2533666666666667,
+        "direction_accuracy": 0.3333333333333333,
+        "log_loss": 0.6998814163324518,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -163,10 +163,10 @@
     },
     "news": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.1861666666666667,
+        "direction_accuracy": 0.6666666666666666,
+        "log_loss": 0.5555830930490714,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -186,10 +186,10 @@
     },
     "options_market": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.24346666666666666,
+        "direction_accuracy": 1,
+        "log_loss": 0.6800736095088515,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -209,10 +209,10 @@
     },
     "price_chart": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.26626666666666665,
+        "direction_accuracy": 0.3333333333333333,
+        "log_loss": 0.7257759456072562,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -232,10 +232,10 @@
     },
     "related_markets": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.23693333333333333,
+        "direction_accuracy": 1,
+        "log_loss": 0.6670000384577577,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -255,10 +255,10 @@
     },
     "sec_filings": {
       "1w": {
-        "brier": null,
-        "direction_accuracy": null,
-        "log_loss": null,
-        "n": 0,
+        "brier": 0.20653333333333335,
+        "direction_accuracy": 0.6666666666666666,
+        "log_loss": 0.6039982767133073,
+        "n": 3,
         "weight": 1.0
       },
       "1y": {
@@ -278,11 +278,20 @@
     }
   },
   "calibration": {
-    "1w": {},
+    "1w": {
+      "5": {
+        "n": 2,
+        "observed_up_rate": 0.5
+      },
+      "6": {
+        "n": 1,
+        "observed_up_rate": 1
+      }
+    },
     "1y": {},
     "3m": {}
   },
-  "generated_utc": "2026-10-14T09:02:04.489084+00:00",
+  "generated_utc": "2026-10-15T08:36:06.662374+00:00",
   "lessons": [],
   "min_samples_for_weighting": 8
 }
